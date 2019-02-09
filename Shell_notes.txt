@@ -1,0 +1,45 @@
+Step 1: login to Sherlock
+Step 2: 
+In a new window, move file to Sherlock from local
+cd ~/Dropbox/Markov_ReMig
+Markov_ReMig ilanaarbisser$ rsync Markov.py ilanama@login.sherlock.stanford.edu:
+Step 3: vi test.sh
+Step 4: input shell commands
+i to inset
+escape after insert to exit insert mode
+:wq to write/save/quit
+Step 4: Run it!
+sbatch test.sh
+Step 5: check progress
+
+rsync filename locationFROM locationTO
+login to sherlock
+sdev 
+
+vi file.sh
+
+i to inset
+escape after insert to exit insert mode
+:wq to write/save/quit
+
+
+#!/bin/bash
+#
+#SBATCH --job-name=ilana_test
+#SBATCH -p normal,hns
+#SBATCH --time=24:00:00
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+
+module load python
+module load math py-scipystack/1.0_py27
+
+python Markov_M1.py
+
+once its done running:
+rsync ilanama@login.sherlock.stanford.edu:filename local/dir
+
+rsync Markov.py aseverso@login.sherlock.stanford.edu:
+
+ilana_test is run0001.sh
+

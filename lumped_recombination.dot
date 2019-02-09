@@ -1,0 +1,23 @@
+digraph lumped_recomb {
+	rankdir = LR
+	size="10, 10"
+	node [shape = circle, style = filled, color = salmon]; S_1;
+	node [shape = circle, style = filled, color = orange]; S_2;
+	node [shape = circle, style = filled, color = palegreen]; S_45;
+	node [shape = circle, style = filled, color = plum]; S_9;
+	node [shape = circle, style = filled, color = yellow]; S_3;
+	node [shape = circle, style = filled, color = mediumturquoise]; S_67;
+	node [shape = circle, style = filled, color = lightskyblue]; S_8;
+	S_1 -> S_9 [ label = "C" ];
+	S_1 -> S_2 [ label = "Re" ];
+	S_2 -> S_1 [ label = "C" ];
+	S_2 -> S_3 [ label = "Re" ];	
+	S_2 -> S_45 [ label = "C" ];
+	S_3 -> S_2 [ label = "C" ];
+	S_3 -> S_67 [ label = "C" ];
+	S_45 -> S_67 [ label = "C" ];
+	S_45 -> S_9 [ label = "Re" ];
+	S_67 -> S_45 [ label = "Re" ];
+	S_67 -> S_8 [ label = "C" ];
+	S_8 -> S_9 [ label = "Re" ];
+}

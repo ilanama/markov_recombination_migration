@@ -1,0 +1,30 @@
+digraph markov_chain {
+	rankdir = LR
+	001[shape = circle, style = filled, color = lightpink];
+	002[shape = circle, style = filled, color = lightcoral];
+	011[shape = circle, style = filled, color = lightblue1];
+	101[shape = circle, style = filled, color = darkolivegreen2];
+	110[shape = circle, style = filled, color = darkorchid1];
+	111[shape = circle, style = filled, color = orange];
+	120[shape = circle, style = filled, color = lightskyblue];
+	210[shape = circle, style = filled, color = mediumaquamarine];
+	220[shape = circle, style = filled, color = lemonchiffon];
+	002 -> 001 [ label = C, color = navy  ];
+	002 -> 111 [ label = Re, color = darkgreen  ];
+	011 -> 001 [ label = C, color = navy  ];
+	011 -> 120 [ label = Re, color = darkgreen  ];
+	101 -> 001 [ label = C, color = navy  ];
+	101 -> 210 [ label = Re, color = darkgreen  ];
+	110 -> 001 [ label = C, color = navy  ];
+	111 -> 002 [ label = C, color = navy  ];
+	111 -> 011 [ label = C, color = navy  ];
+	111 -> 101 [ label = C, color = navy  ];
+	111 -> 220 [ label = Re, color = darkgreen  ];
+	120 -> 011 [ label = C, color = navy  ];
+	120 -> 110 [ label = C, color = navy  ];
+	210 -> 101 [ label = C, color = navy  ];
+	210 -> 110 [ label = C, color = navy  ];
+	220 -> 111 [ label = C, color = navy  ];
+	220 -> 120 [ label = C, color = navy  ];
+	220 -> 210 [ label = C, color = navy  ];
+}

@@ -1,0 +1,41 @@
+digraph markov_chain {
+	rankdir = LR
+	node [shape = circle, style = filled, color = lightskyblue];
+	002 -> 001 [ label = C ];
+	002 -> 111 [ label = Re ];
+	003 -> 002 [ label = C ];
+	003 -> 112 [ label = Re ];
+	011101 -> 001 [ label = C ];
+	011101 -> 120210 [ label = Re ];
+	012102 -> 002 [ label = C ];
+	012102 -> 011101 [ label = C ];
+	012102 -> 121211 [ label = Re ];
+	021201 -> 011101 [ label = C ];
+	021201 -> 130310 [ label = Re ];
+	110 -> 001 [ label = C ];
+	111 -> 002 [ label = C ];
+	111 -> 011101 [ label = C ];
+	111 -> 220 [ label = Re ];
+	112 -> 003 [ label = C ];
+	112 -> 012102 [ label = C ];
+	112 -> 111 [ label = C ];
+	112 -> 221 [ label = Re ];
+	120210 -> 011101 [ label = C ];
+	120210 -> 110 [ label = C ];
+	121211 -> 012102 [ label = C ];
+	121211 -> 021201 [ label = C ];
+	121211 -> 111 [ label = C ];
+	121211 -> 230320 [ label = Re ];
+	130310 -> 021201 [ label = C ];
+	130310 -> 120210 [ label = C ];
+	220 -> 111 [ label = C ];
+	220 -> 120210 [ label = C ];
+	221 -> 112 [ label = C ];
+	221 -> 121211 [ label = 0 ];
+	221 -> 330 [ label = Re ];
+	230320 -> 121211 [ label = C ];
+	230320 -> 130310 [ label = C ];
+	230320 -> 220 [ label = C ];
+	330 -> 221 [ label = C ];
+	330 -> 230320 [ label = C ];
+}

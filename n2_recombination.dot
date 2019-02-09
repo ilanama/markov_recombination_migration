@@ -1,0 +1,22 @@
+digraph markov_chain {
+	rankdir = LR
+	node [shape = circle, style = filled, color = lightskyblue];
+	002 -> 001 [ label = C4 ];
+	002 -> 111 [ label = Re ];
+	011 -> 001 [ label = C3R ];
+	011 -> 120 [ label = Re ];
+	101 -> 001 [ label = C3L ];
+	101 -> 210 [ label = Re ];
+	110 -> 001 [ label = C2 ];
+	111 -> 002 [ label = C2 ];
+	111 -> 011 [ label = C3L ];
+	111 -> 101 [ label = C3R ];
+	111 -> 220 [ label = Re ];
+	120 -> 011 [ label = C2 ];
+	120 -> 110 [ label = C1R ];
+	210 -> 101 [ label = C2 ];
+	210 -> 110 [ label = C1L ];
+	220 -> 111 [ label = C2 ];
+	220 -> 120 [ label = C1L ];
+	220 -> 210 [ label = C1R ];
+}

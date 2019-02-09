@@ -1,0 +1,41 @@
+digraph markov_chain {
+	rankdir = LR
+	node [shape = circle, style = filled, color = lightskyblue];
+	002 -> 001 [ label = C4 ];
+	002 -> 111 [ label = e ];
+	003 -> 002 [ label = C4 ];
+	003 -> 112 [ label = e ];
+	011_101 -> 001 [ label = C3 ];
+	011_101 -> 120_210 [ label = e ];
+	012_102 -> 002 [ label = C3 ];
+	012_102 -> 011_101 [ label = C4 ];
+	012_102 -> 121_211 [ label = e ];
+	021_201 -> 011_101 [ label = 0_or_C3 ];
+	021_201 -> 130_310 [ label = e ];
+	110 -> 001 [ label = C2 ];
+	111 -> 002 [ label = C2 ];
+	111 -> 011_101 [ label = C3 ];
+	111 -> 220 [ label = e ];
+	112 -> 003 [ label = C2 ];
+	112 -> 012_102 [ label = C3 ];
+	112 -> 111 [ label = C4 ];
+	112 -> 221 [ label = e ];
+	120_210 -> 011_101 [ label = C2 ];
+	120_210 -> 110 [ label = C1 ];
+	121_211 -> 012_102 [ label = C2 ];
+	121_211 -> 021_201 [ label = C3 ];
+	121_211 -> 111 [ label = 0_or_C3 ];
+	121_211 -> 230_320 [ label = e ];
+	130_310 -> 021_201 [ label = C2 ];
+	130_310 -> 120_210 [ label = C1 ];
+	220 -> 111 [ label = C2 ];
+	220 -> 120_210 [ label = C1 ];
+	221 -> 112 [ label = C2 ];
+	221 -> 121_211 [ label = 0_or_C1 ];
+	221 -> 330 [ label = e ];
+	230_320 -> 121_211 [ label = C2 ];
+	230_320 -> 130_310 [ label = C1 ];
+	230_320 -> 220 [ label = C1 ];
+	330 -> 221 [ label = C2 ];
+	330 -> 230_320 [ label = C1 ];
+}

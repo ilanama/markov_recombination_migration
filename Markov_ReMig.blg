@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Markov_ReMig.aux
+The style file: chicago.bst
+Database file #1: Markov_ReMig.bib.bib
+Warning--page numbers missing in Griffiths1981
+You've used 11 entries,
+            2861 wiz_defined-function locations,
+            691 strings with 6630 characters,
+and the built_in function-call counts, 7523 in all, are:
+= -- 644
+> -- 528
+< -- 0
++ -- 160
+- -- 196
+* -- 645
+:= -- 1389
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 77
+chr.to.int$ -- 11
+cite$ -- 12
+duplicate$ -- 187
+empty$ -- 463
+format.name$ -- 224
+if$ -- 1394
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 110
+pop$ -- 44
+preamble$ -- 1
+purify$ -- 143
+quote$ -- 0
+skip$ -- 218
+stack$ -- 0
+substring$ -- 425
+swap$ -- 56
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 220
+warning$ -- 1
+while$ -- 116
+width$ -- 0
+write$ -- 145
+(There was 1 warning)

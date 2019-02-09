@@ -1,0 +1,72 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{De~Giorgio and Rosenberg}{De~Giorgio and
+  Rosenberg}{2016}]{DeGiorgioRosenberg2016}
+De~Giorgio, M. and N.~A. Rosenberg (2016).
+\newblock Consistency and inconsistency of consensus methods for inferring
+  species trees from gene trees in the presence of ancestral population
+  structure.
+\newblock {\em Theoretical Population Biology\/}~{\em 110}, 12--24.
+
+\bibitem[\protect\citeauthoryear{Degnan and Rosenberg}{Degnan and
+  Rosenberg}{2009}]{DegnanRosenberg2009}
+Degnan, J.~H. and N.~A. Rosenberg (2009).
+\newblock Gene tree discordance, phylogenetic inference and the multispecies
+  coalescent.
+\newblock {\em Trends in Ecology and Evolution\/}~{\em 6}, 332--340.
+
+\bibitem[\protect\citeauthoryear{Dutheil, Ganapathy, Hobolth, Mailund,
+  Uyenoyama, and Schierup}{Dutheil et~al.}{2009}]{Dutheiletal2009}
+Dutheil, J.~Y., G.~Ganapathy, A.~Hobolth, T.~Mailund, M.~K. Uyenoyama, and
+  M.~H. Schierup (2009).
+\newblock Ancestral population genomics: The coalescent hdden markov model
+  approach.
+\newblock {\em Genetics\/}~{\em 183}, 259--274.
+
+\bibitem[\protect\citeauthoryear{Griffiths}{Griffiths}{1981}]{Griffiths1981}
+Griffiths, R.~C. (1981).
+\newblock Neutral two-locus multiple allele models with recombination.
+\newblock {\em Theoretical Population Biology\/}~{\em 19\/}(169-186).
+
+\bibitem[\protect\citeauthoryear{Hudson}{Hudson}{1983}]{Hudson1983}
+Hudson, R.~R. (1983).
+\newblock Properties of a neutral allele model with intragenic recombination.
+\newblock {\em Theoretical Population Biology\/}~{\em 23}, 183--201.
+
+\bibitem[\protect\citeauthoryear{Ochman}{Ochman}{2001}]{Ochman2001}
+Ochman, H. (2001).
+\newblock Lateral and oblique gene transfer.
+\newblock {\em Current opinion in genetics and development\/}~{\em 11},
+  616--619.
+
+\bibitem[\protect\citeauthoryear{Ruths and Nakhleh}{Ruths and
+  Nakhleh}{2005}]{RuthsNakleh2005}
+Ruths, D. and L.~Nakhleh (2005).
+\newblock Recombination and phylogeny: effects and detection.
+\newblock {\em International journal of bioinformatics research and
+  applications\/}~{\em 1}, 1--11.
+
+\bibitem[\protect\citeauthoryear{Simonsen and Churchill}{Simonsen and
+  Churchill}{1997}]{SimonsenChurchill1997}
+Simonsen, K.~L. and G.~A. Churchill (1997).
+\newblock A markov chain model of coalescence with recombination.
+\newblock {\em Theoretical Population Biology\/}~{\em 52}, 43--59.
+
+\bibitem[\protect\citeauthoryear{Slatkin and Pollack}{Slatkin and
+  Pollack}{2006}]{SlatkinPollack2006}
+Slatkin, M. and J.~L. Pollack (2006).
+\newblock The concordance of gene trees and species trees with two linked loci.
+\newblock {\em Genetics\/}~{\em 172}, 1979--1984.
+
+\bibitem[\protect\citeauthoryear{Slatkin and Pollack}{Slatkin and
+  Pollack}{2008}]{SlatkinPollack2008}
+Slatkin, M. and J.~L. Pollack (2008).
+\newblock Subdivision in an ancestral species creates asymmetry in gene trees.
+\newblock {\em Molecular Biology and Evolution\/}~{\em 10}, 2241--2246.
+
+\bibitem[\protect\citeauthoryear{Tajima}{Tajima}{1983}]{Tajima1983}
+Tajima, F. (1983).
+\newblock Evolutionary relationship of {DNA} sequences in finite populations.
+\newblock {\em Genetics\/}~{\em 105}, 437--460.
+
+\end{thebibliography}
